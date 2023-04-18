@@ -1,9 +1,4 @@
-- 👋 Hi, I’m Omid Saghatchian
-- 👀 I’m interested in Machine learning, Statistics, Probability and ...
-- 🌱 I’m currently learning: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.   MIT 18.06SC Linear algebra <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.   Mathematical Biostatistics Boot Camp 1 (from Johns Hopkins University) <br>
-
+With over two and a half years of experience in the software development industry, I have recently embarked on a journey into the exciting world of ML and AI. My background in mathematics has equipped me with a strong foundation to pursue research opportunities, and I am currently seeking master's programs to further my knowledge. In my current project, I am working on an article about token merging to increase the throughput of VIT (vision transformer model).
 
 [Linkedin](https://www.linkedin.com/in/omidiu/ "Linkedin")
 
