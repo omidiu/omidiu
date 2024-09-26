@@ -41,7 +41,7 @@ I am an ML Researcher and a passionate learner. Here are some highlights of my a
    We created a `Module` class similar to the [`torch.nn.Module`](https://pytorch.org/docs/stable/generated/torch.nn.Module.html) class in PyTorch, which all neural networks should inherit. This class automatically provides capabilities such as the `parameters()` method, so each class does not need to implement it individually.
 
    3.3 **Optimizer Abstraction**:  
-   We introduced a separate `Optimizer` entity, similar to PyTorch, where each optimizer must implement two main methods: `zero_grad()` and `step().`
+   We introduced a separate `Optimizer` entity, similar to PyTorch, where each optimizer must implement two main methods: `zero_grad()` and `step()`.
 
    3.4 **Neural Network Components**:  
    We created a basic `nn` module to contain all the components a neural network could have. Currently, we have implemented only the `Linear` function.
