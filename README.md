@@ -4,7 +4,7 @@
 I am an ML Researcher and a passionate learner. Here are some highlights of my academic and professional journey:
 
 - 🎓 **Current Pursuits**:  
-  I am currently pursuing a master’s degree in Data Mining with a GPA of 19.65, holding the first rank in my major.
+  I am currently pursuing a master’s degree in Data Mining at Shahid Beheshti University with a GPA of 19.65, holding the first rank in my major.
 
 - 🧮 **Educational Background**:  
   I hold a bachelor’s degree in Mathematics and Applications from Amirkabir University of Technology.
@@ -35,7 +35,7 @@ I am an ML Researcher and a passionate learner. Here are some highlights of my a
    A friend and I created a framework demonstrating how PyTorch operates behind the scenes. I plan to create a tutorial for this as well. It’s a generalized version of the existing implementation from Andrew Karpathy’s project called [Micrograd](https://github.com/karpathy/micrograd), but there are significant differences:
 
    3.1 **Generalization Beyond Scalars**:  
-   Our implementation is not limited to scalars; we have written it in a generalized form that supports scalars, vectors, matrices, and tensors. This is significant because it requires us to generalize the concept of derivatives. In this generalized context, the derivative is analogous to a linear transformation from an infinitesimal change in `dx` to an infinitesimal change in `dy.` For more detailed information, you can refer to this [MIT tutorial](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/video_galleries/lecture-videos/).
+   Our implementation is not limited to scalars; we have written it in a generalized form that supports scalars, vectors, matrices, and tensors. This is significant because it requires us to generalize the concept of derivatives. In this generalized context, the derivative is analogous to a linear transformation from an infinitesimal change in `dx` to an infinitesimal change in `dy`. For more detailed information, you can refer to this [MIT tutorial](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/video_galleries/lecture-videos/).
 
    3.2 **Module Class Implementation**:  
    We created a `Module` class similar to the [`torch.nn.Module`](https://pytorch.org/docs/stable/generated/torch.nn.Module.html) class in PyTorch, which all neural networks should inherit. This class automatically provides capabilities such as the `parameters()` method, so each class does not need to implement it individually.
