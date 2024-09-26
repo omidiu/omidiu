@@ -10,7 +10,7 @@ I am an ML Researcher and a passionate learner. Here are some highlights of my a
   I hold a bachelor’s degree in Mathematics and Applications from Amirkabir University of Technology.
 
 - 💻 **Professional Experience**:  
-  I have 2.5 years of experience as a software engineer. In my last year, I worked at [Yektanet](https://www.yektanet.com/en/), the largest and most advanced online advertising network in Iran.
+  I have 2.5 years of experience as a software engineer. In my last year, I worked at [Yektanet](https://www.linkedin.com/company/yektanet/?originalSubdomain=ir), the largest and most advanced online advertising network in Iran.
 
 - 🧑‍🏫 **Teaching Experience**:  
   I have served as a lead teaching assistant at Amirkabir University of Technology for several courses, including:
