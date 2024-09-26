@@ -4,7 +4,7 @@
 I am an ML Researcher and a passionate learner. Here are some highlights of my academic and professional journey:
 
 - 🎓 **Current Pursuits**:  
-  I am currently pursuing a master’s degree in Data Mining at Shahid Beheshti University with a GPA of 19.65, holding the first rank in my major.
+  I am currently pursuing a master’s degree in Data Mining at Shahid Beheshti University with a GPA of **19.65**, holding the first rank in my major.
 
 - 🧮 **Educational Background**:  
   I hold a bachelor’s degree in Mathematics and Applications from Amirkabir University of Technology.
