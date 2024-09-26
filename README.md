@@ -46,6 +46,12 @@ I am an ML Researcher and a passionate learner. Here are some highlights of my a
    3.4 **Neural Network Components**:  
    We created a basic `nn` module to contain all the components a neural network could have. Currently, we have implemented only the `Linear` function.
 
+## ✍️ Medium Articles
+
+1. **[Decision Tree Implementation from Scratch & Visualization](https://medium.com/@omidsaghatchian/decision-tree-implementation-from-scratch-visualization-5eb0bbf427c2)**  
+   In this article, I walk through a detailed implementation of the Decision Tree algorithm from scratch with visualization.
+
+
 ## 🌍 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/omidiu)&nbsp;
 [![Email](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:omidsaghatchian@gmail.com)&nbsp;
