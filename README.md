@@ -1,7 +1,7 @@
 # Hi there 👋, I'm Omid Saghatchian!
 
 ## 🧑‍🔬 About Me
-I am an ML Researcher and a passionate learner. Here are some highlights of my academic and professional journey:
+I am an ML Engineer and a passionate learner. Here are some highlights of my academic and professional journey:
 
 - 🎓 **Current Pursuits**:  
   I am currently pursuing a master’s degree in Data Mining at Shahid Beheshti University with a GPA of **19.65**, holding the first rank in my major.
