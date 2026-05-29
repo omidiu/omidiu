@@ -62,7 +62,9 @@ Our work introduced **Cached Adaptive Token Merging**, or **CA-ToMe**, a trainin
 
 This project was part of my early research experience, which I started near the end of my bachelor’s studies.
 
-🔗 [Token Merging for Fast Stable Diffusion](https://arxiv.org/abs/2303.17604)
+🔗 [Cached Adaptive Token Merging](https://arxiv.org/abs/2501.00946)
+
+
 
 ---
 
