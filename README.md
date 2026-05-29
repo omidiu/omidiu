@@ -1,57 +1,104 @@
-# Hi there 👋, I'm Omid Saghatchian!
+# Hi there 👋, I'm Omid Saghatchian
+
+I am a software engineer and machine learning researcher with a strong background in mathematics. My interests lie at the intersection of **software engineering**, **machine learning**, **large language models**, and **mathematical reasoning**.
+
+I enjoy building systems, studying the foundations behind intelligent models, and turning research ideas into practical implementations.
+
+---
 
 ## 🧑‍🔬 About Me
-I am an ML Engineer and a passionate learner. Here are some highlights of my academic and professional journey:
 
-- 🎓 **Current Pursuits**:  
-  I am currently pursuing a master’s degree in Data Mining at Shahid Beheshti University with a GPA of **19.65**, holding the first rank in my major.
+### 🎓 Current Studies and Research
 
-- 🧮 **Educational Background**:  
-  I hold a bachelor’s degree in Mathematics and Applications from Amirkabir University of Technology.
+I am currently pursuing a **master’s degree in Data Mining** at **Shahid Beheshti University**, where I hold the **first rank in my major** with a GPA of **18.88/20**.
 
-- 💻 **Professional Experience**:  
-  I have 2.5 years of experience as a software engineer. In my last year, I worked at [Yektanet](https://www.linkedin.com/company/yektanet/?originalSubdomain=ir), the largest and most advanced online advertising network in Iran.
+My master’s thesis focuses on studying the **reliability of large language models in reasoning about semantic relationships between programs**. This work develops a structured evaluation framework to assess whether LLMs can go beyond simple equivalence predictions and provide consistent, checkable reasoning about code changes.
 
-- 🧑‍🏫 **Teaching Experience**:  
-  I have served as a lead teaching assistant at Amirkabir University of Technology for several courses, including:
-  - 📊 **Data Mining**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
-  - 💻 **Computational Data Mining**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
-  - 🤖 **Deep Learning**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
-  - 📐 **Linear Algebra**, instructed by [Dr. Behzad Najafi](https://scholar.google.com/citations?user=DqRal7EAAAAJ&hl=en)
-  - 🖥️ **User Interface Design**, instructed by [Dr. Sajad Shirali Shahreza](https://sajad.shirali.ir/)
+I am conducting this research with **Dr. Khashayar Etemadi**, Postdoctoral Researcher at **ETH Zurich**.
 
-- 🔬 **Research Involvement**:  
-  I have been involved in various research projects, which are detailed below.
+---
+
+### 💼 Current Work
+
+I am currently working as a **Software Engineer at Argoman**, where I lead a squad focused on building HR-related products and solutions.
+
+Our team is exploring how to integrate **AI agents** into our products to reduce the time users spend on repetitive tasks and improve the accuracy and efficiency of the system.
+
+Before Argoman, I worked at **Yektanet**, the largest and one of the most advanced online advertising networks in Iran. It was one of the strongest technical environments I experienced, and it helped me grow significantly as a software engineer.
+
+---
+
+### 🧮 Educational Background
+
+I hold a **bachelor’s degree in Mathematics and Applications** from **Amirkabir University of Technology**.
+
+Before university, I studied at the **National Organization for Development of Exceptional Talents**, also known as **Sampad**.
+
+Mathematics has had a major influence on the way I think. It helps me break down problems, reason carefully, organize ideas, and build structured solutions, whether in software engineering or machine learning research.
+
+---
+
+### 🧑‍🏫 Teaching Experience
+
+I have served as a **lead teaching assistant** at **Amirkabir University of Technology** for several courses, including:
+
+* 📊 **Data Mining**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
+* 💻 **Computational Data Mining**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
+* 🤖 **Deep Learning**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
+* 📐 **Linear Algebra**, instructed by [Dr. Behzad Najafi](https://scholar.google.com/citations?user=DqRal7EAAAAJ&hl=en)
+* 🖥️ **User Interface Design**, instructed by [Dr. Sajad Shirali Shahreza](https://sajad.shirali.ir/)
+
+---
 
 ## 🚀 Projects
 
-1. **Adaptive Token Merging Strategies**:  
-   Investigating methods to optimize token merging processes for faster and more efficient model inference. Our research builds upon the existing method described in the paper [Token Merging for Fast Stable Diffusion](https://arxiv.org/abs/2303.17604).
+Some of my projects are available on my GitHub.
 
-2. **Driving Behavior Monitoring Framework**:  
-   Creating a comprehensive framework for analyzing driving patterns using sensor time series data to improve driver safety and provide real-time insights. Our method is inspired by [wav2vec 2.0](https://arxiv.org/abs/2006.11477).
+### 1. Cached Adaptive Token Merging
 
-3. **Mini Torch Library**:  
-   A friend and I created a framework demonstrating how PyTorch operates behind the scenes. I plan to create a tutorial for this as well. It’s a generalized version of the existing implementation from Andrew Karpathy’s project called [Micrograd](https://github.com/karpathy/micrograd), but there are significant differences:
+This is the official implementation of our paper on accelerating diffusion model inference.
 
-   3.1 **Generalization Beyond Scalars**:  
-   Our implementation is not limited to scalars; we have written it in a generalized form that supports scalars, vectors, matrices, and tensors. This is significant because it requires us to generalize the concept of derivatives. In this generalized context, the derivative is analogous to a linear transformation from an infinitesimal change in `dx` to an infinitesimal change in `dy`. For more detailed information, you can refer to this [MIT tutorial](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/video_galleries/lecture-videos/).
+Our work introduced **Cached Adaptive Token Merging**, or **CA-ToMe**, a training-free method that reduces redundant self-attention computation by adaptively merging similar tokens and caching token-pair information across denoising steps. The goal is to achieve faster inference while preserving image generation quality.
 
-   3.2 **Module Class Implementation**:  
-   We created a `Module` class similar to the [`torch.nn.Module`](https://pytorch.org/docs/stable/generated/torch.nn.Module.html) class in PyTorch, which all neural networks should inherit. This class automatically provides capabilities such as the `parameters()` method, so each class does not need to implement it individually.
+This project was part of my early research experience, which I started near the end of my bachelor’s studies.
 
-   3.3 **Optimizer Abstraction**:  
-   We introduced a separate `Optimizer` entity, similar to PyTorch, where each optimizer must implement two main methods: `zero_grad()` and `step()`.
+🔗 [Token Merging for Fast Stable Diffusion](https://arxiv.org/abs/2303.17604)
 
-   3.4 **Neural Network Components**:  
-   We created a basic `nn` module to contain all the components a neural network could have. Currently, we have implemented only the `Linear` function.
+---
+
+### 2. Mini Torch Library
+
+A friend and I created **Mini Torch**, an educational framework designed to show how PyTorch works behind the scenes.
+
+The project is inspired by Andrew Karpathy’s [Micrograd](https://github.com/karpathy/micrograd), but it extends the idea toward a more generalized and PyTorch-like structure. The goal is to make concepts such as tensors, automatic differentiation, neural network modules, and optimization easier to understand through implementation.
+
+You can find the main differences and design details in the project README.
+
+---
+
+### 3. EquiBench — Upcoming
+
+**EquiBench** is a benchmark related to my master’s thesis.
+
+The goal of this project is to evaluate how well different large language models reason about **semantic relationships between programs**. Instead of only checking whether a model predicts two programs as equivalent or non-equivalent, EquiBench aims to assess whether the model can provide reliable, structured, and checkable reasoning about code transformations.
+
+The benchmark focuses on questions such as:
+
+* Can an LLM correctly identify when two pieces of code are semantically equivalent?
+* Can it explain why a transformation preserves or changes program behavior?
+* Is the model’s reasoning consistent across similar examples?
+* Can its explanation be verified through structured checks?
+
+---
 
 ## ✍️ Medium Articles
 
-1. **[Decision Tree Implementation from Scratch & Visualization](https://medium.com/@omidsaghatchian/decision-tree-implementation-from-scratch-visualization-5eb0bbf427c2)**  
-   In this article, I walk through a detailed implementation of the Decision Tree algorithm from scratch with visualization.
+### [Decision Tree Implementation from Scratch & Visualization](https://medium.com/@omidsaghatchian/decision-tree-implementation-from-scratch-visualization-5eb0bbf427c2)
 
+In this article, I explain how to implement a decision tree from scratch and visualize its structure.
+
+---
 
 ## 🌍 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/omidiu)&nbsp;
-[![Email](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:omidsaghatchian@gmail.com)&nbsp;
+
+ \
