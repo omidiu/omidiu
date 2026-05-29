@@ -56,6 +56,8 @@ Some of my projects are available on my GitHub.
 
 ### 1. Cached Adaptive Token Merging
 
+![Cached Adaptive Token Merging](https://github.com/omidiu/ca_tome/raw/main/statics/graphical_abstract.png)
+
 This is the official implementation of our paper on accelerating diffusion model inference.
 
 Our work introduced **Cached Adaptive Token Merging**, or **CA-ToMe**, a training-free method that reduces redundant self-attention computation by adaptively merging similar tokens and caching token-pair information across denoising steps. The goal is to achieve faster inference while preserving image generation quality.
@@ -67,6 +69,8 @@ This project was part of my early research experience, which I started near the 
 ---
 
 ### 2. Mini Torch Library
+
+![Pytorch vs minitorch](https://raw.githubusercontent.com/omidiu/Mini-Torch/main/statics/pytorch_minitorch.png)
 
 A friend and I created **Mini Torch**, an educational framework designed to show how PyTorch works behind the scenes.
 
