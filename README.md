@@ -102,5 +102,3 @@ The benchmark focuses on questions such as:
 In this article, I explain how to implement a decision tree from scratch and visualize its structure.
 
 ---
-
-## 🌍 Connect with Me
