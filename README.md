@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Omid Saghatchian
 
-I am a software engineer and machine learning researcher with a strong background in mathematics. My interests lie at the intersection of **software engineering**, **machine learning**, **large language models**, and **mathematical reasoning**.
+I am a software engineer and machine learning researcher with a background in mathematics, currently focused on large language models, program reasoning, and AI systems.
 
 I enjoy building systems, studying the foundations behind intelligent models, and turning research ideas into practical implementations.
 
@@ -22,7 +22,7 @@ I am conducting this research with **Dr. Khashayar Etemadi**, Postdoctoral Resea
 
 I am currently working as a **Software Engineer at Argoman**, where I lead a squad focused on building HR-related products and solutions.
 
-Our team is exploring how to integrate **AI agents** into our products to reduce the time users spend on repetitive tasks and improve the accuracy and efficiency of the system.
+Our team focuses on turning business needs into software solutions designed using Domain-Driven Design (DDD) principles and transforming them into practical, usable products. As part of this effort, we are exploring how to leverage **AI agents** to improve product workflows, reduce repetitive tasks, and create a more efficient and intuitive user experience.
 
 Before Argoman, I worked at **Yektanet**, the largest and one of the most advanced online advertising networks in Iran. It was one of the strongest technical environments I experienced, and it helped me grow significantly as a software engineer.
 
@@ -62,9 +62,7 @@ Our work introduced **Cached Adaptive Token Merging**, or **CA-ToMe**, a trainin
 
 This project was part of my early research experience, which I started near the end of my bachelor’s studies.
 
-🔗 [Cached Adaptive Token Merging](https://arxiv.org/abs/2501.00946)
-
-
+🔗 [Token Merging for Fast Stable Diffusion](https://arxiv.org/abs/2303.17604)
 
 ---
 
@@ -102,5 +100,3 @@ In this article, I explain how to implement a decision tree from scratch and vis
 ---
 
 ## 🌍 Connect with Me
-
- \
