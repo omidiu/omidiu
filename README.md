@@ -11,10 +11,9 @@ semantics**, **efficient generative models**, and **AI-enabled software systems*
 - 🔬 Researching reliable and verifiable LLM reasoning about program transformations
 - 🧮 B.Sc. in **Mathematics and Applications** from Amirkabir University of Technology
 
-<!-- Add only the links that are publicly available. -->
-[CV](YOUR_CV_LINK) ·
-[Google Scholar](YOUR_GOOGLE_SCHOLAR_LINK) ·
-[LinkedIn](YOUR_LINKEDIN_LINK) ·
+
+[Google Scholar](https://scholar.google.com/citations?user=f7rHfTIAAAAJ&hl=en) ·
+[LinkedIn](https://www.linkedin.com/in/omidiu/) ·
 [Medium](https://medium.com/@omidsaghatchian)
 
 ---
@@ -49,8 +48,6 @@ whether models can:
 - Generate explanations that can be checked systematically
 
 **Status:** Research in progress.
-
-[Repository](https://github.com/omidiu/EquiBench)
 
 ---
 
@@ -127,6 +124,6 @@ I am interested in research and engineering collaborations related to:
 - Efficient machine-learning systems
 - AI-assisted software products
 
-[Email](mailto:YOUR_EMAIL) ·
-[LinkedIn](YOUR_LINKEDIN_LINK)
+[Email](mailto:omidsaghatchian@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/omidiu/)
 
