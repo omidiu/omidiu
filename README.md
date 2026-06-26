@@ -11,7 +11,6 @@ semantics**, **efficient generative models**, and **AI-enabled software systems*
 - 🔬 Researching reliable and verifiable LLM reasoning about program transformations
 - 🧮 B.Sc. in **Mathematics and Applications** from Amirkabir University of Technology
 
-
 [Google Scholar](https://scholar.google.com/citations?user=f7rHfTIAAAAJ&hl=en) ·
 [LinkedIn](https://www.linkedin.com/in/omidiu/) ·
 [Medium](https://medium.com/@omidsaghatchian)
@@ -77,7 +76,7 @@ This research is conducted in collaboration with **Dr. Khashayar Etemadi**.
 
 ---
 
-## Engineering Experience
+## Selected Engineering Experience
 
 ### Argoman — Software Engineer
 
@@ -90,8 +89,9 @@ repetitive operations, and support more intuitive user experiences.
 
 ### Yektanet — Software Engineer
 
-Previously worked on production software systems at Yektanet, an online
-advertising technology company.
+I worked at **Yektanet**, one of Iran’s leading advertising-technology companies, contributing to high-throughput distributed systems. 
+
+My work included OpenRTB-based SSP integrations, CTR prediction services, video-advertising systems, internal tools, and production monitoring using technologies such as Python, Kafka, PostgreSQL, Redis, gRPC, Sentry, and Grafana.
 
 ---
 
