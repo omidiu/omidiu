@@ -1,104 +1,132 @@
-# Hi there 👋, I'm Omid Saghatchian
+# Omid Saghatchian
 
-I am a software engineer and machine learning researcher with a background in mathematics, currently focused on large language models, program reasoning, and AI systems.
+**Software Engineer and Machine Learning Researcher**
 
-I enjoy building systems, studying the foundations behind intelligent models, and turning research ideas into practical implementations.
+I build reliable software systems and study how large language models reason
+about programs. My current interests include **LLM reasoning**, **program
+semantics**, **efficient generative models**, and **AI-enabled software systems**.
 
----
+- 💼 Software Engineer at **Argoman**, leading the development of HR technology products
+- 🎓 M.Sc. student in **Data Mining** at Shahid Beheshti University
+- 🔬 Researching reliable and verifiable LLM reasoning about program transformations
+- 🧮 B.Sc. in **Mathematics and Applications** from Amirkabir University of Technology
 
-## 🧑‍🔬 About Me
-
-### 🎓 Current Studies and Research
-
-I am currently pursuing a **master’s degree in Data Mining** at **Shahid Beheshti University**, where I hold the **first rank in my major** with a GPA of **18.88/20**.
-
-My master’s thesis focuses on studying the **reliability of large language models in reasoning about semantic relationships between programs**. This work develops a structured evaluation framework to assess whether LLMs can go beyond simple equivalence predictions and provide consistent, checkable reasoning about code changes.
-
-I am conducting this research with **Dr. Khashayar Etemadi**, Postdoctoral Researcher at **ETH Zurich**.
-
----
-
-### 💼 Current Work
-
-I am currently working as a **Software Engineer at Argoman**, where I lead a squad focused on building HR-related products and solutions.
-
-Our team focuses on turning business needs into software solutions designed using Domain-Driven Design (DDD) principles and transforming them into practical, usable products. As part of this effort, we are exploring how to leverage **AI agents** to improve product workflows, reduce repetitive tasks, and create a more efficient and intuitive user experience.
-
-Before Argoman, I worked at **Yektanet**, the largest and one of the most advanced online advertising networks in Iran. It was one of the strongest technical environments I experienced, and it helped me grow significantly as a software engineer.
+<!-- Add only the links that are publicly available. -->
+[CV](YOUR_CV_LINK) ·
+[Google Scholar](YOUR_GOOGLE_SCHOLAR_LINK) ·
+[LinkedIn](YOUR_LINKEDIN_LINK) ·
+[Medium](https://medium.com/@omidsaghatchian)
 
 ---
 
-### 🧮 Educational Background
+## Selected Research and Projects
 
-I hold a **bachelor’s degree in Mathematics and Applications** from **Amirkabir University of Technology**.
+### CA-ToMe — Cached Adaptive Token Merging
 
-Before university, I studied at the **National Organization for Development of Exceptional Talents**, also known as **Sampad**.
+A training-free method for accelerating diffusion-model inference by
+adaptively merging similar tokens and caching token-pair information across
+denoising steps.
 
-Mathematics has had a major influence on the way I think. It helps me break down problems, reason carefully, organize ideas, and build structured solutions, whether in software engineering or machine learning research.
+My work focused on reducing redundant self-attention computation while
+preserving image-generation quality.
 
----
-
-### 🧑‍🏫 Teaching Experience
-
-I have served as a **lead teaching assistant** at **Amirkabir University of Technology** for several courses, including:
-
-* 📊 **Data Mining**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
-* 💻 **Computational Data Mining**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
-* 🤖 **Deep Learning**, instructed by [Dr. Fatemeh Shakeri](https://scholar.google.com/citations?user=35zq7c4AAAAJ&hl=en)
-* 📐 **Linear Algebra**, instructed by [Dr. Behzad Najafi](https://scholar.google.com/citations?user=DqRal7EAAAAJ&hl=en)
-* 🖥️ **User Interface Design**, instructed by [Dr. Sajad Shirali Shahreza](https://sajad.shirali.ir/)
+[Paper](https://arxiv.org/abs/2501.00946) ·
+[Code](https://github.com/omidiu/ca_tome)
 
 ---
 
-## 🚀 Projects
+### EquiBench — LLM Reasoning About Program Semantics
 
-Some of my projects are available on my GitHub.
+A research benchmark for evaluating whether large language models can reason
+reliably about semantic relationships between programs.
 
-### 1. Cached Adaptive Token Merging
+Rather than evaluating only binary equivalence predictions, EquiBench studies
+whether models can:
 
-![Cached Adaptive Token Merging](https://github.com/omidiu/ca_tome/raw/main/statics/graphical_abstract.png)
+- Identify semantics-preserving and semantics-altering transformations
+- Explain why program behavior is preserved or changed
+- Produce consistent reasoning across related examples
+- Generate explanations that can be checked systematically
 
-This is the official implementation of our paper on accelerating diffusion model inference.
+**Status:** Research in progress.
 
-Our work introduced **Cached Adaptive Token Merging**, or **CA-ToMe**, a training-free method that reduces redundant self-attention computation by adaptively merging similar tokens and caching token-pair information across denoising steps. The goal is to achieve faster inference while preserving image generation quality.
-
-This project was part of my early research experience, which I started near the end of my bachelor’s studies.
-
-🔗 [Cached Adaptive Token Merging](https://arxiv.org/abs/2501.00946)
-
----
-
-### 2. Mini Torch Library
-
-![Pytorch vs minitorch](https://raw.githubusercontent.com/omidiu/Mini-Torch/main/statics/pytorch_minitorch.png)
-
-A friend and I created **Mini Torch**, an educational framework designed to show how PyTorch works behind the scenes.
-
-The project is inspired by Andrew Karpathy’s [Micrograd](https://github.com/karpathy/micrograd), but it extends the idea toward a more generalized and PyTorch-like structure. The goal is to make concepts such as tensors, automatic differentiation, neural network modules, and optimization easier to understand through implementation.
-
-You can find the main differences and design details in the project README.
+[Repository](https://github.com/omidiu/EquiBench)
 
 ---
 
-### 3. EquiBench — Upcoming
+### Mini-Torch
 
-**EquiBench** is a benchmark related to my master’s thesis.
+An educational deep-learning framework created to explain how systems such as
+PyTorch work internally.
 
-The goal of this project is to evaluate how well different large language models reason about **semantic relationships between programs**. Instead of only checking whether a model predicts two programs as equivalent or non-equivalent, EquiBench aims to assess whether the model can provide reliable, structured, and checkable reasoning about code transformations.
+Mini-Torch implements concepts including tensors, automatic differentiation,
+computation graphs, neural-network modules, and optimization using a compact,
+readable architecture.
 
-The benchmark focuses on questions such as:
-
-* Can an LLM correctly identify when two pieces of code are semantically equivalent?
-* Can it explain why a transformation preserves or changes program behavior?
-* Is the model’s reasoning consistent across similar examples?
-* Can its explanation be verified through structured checks?
+[Repository](https://github.com/omidiu/Mini-Torch)
 
 ---
 
-## ✍️ Medium Articles
+## Current Research
 
-### [Decision Tree Implementation from Scratch & Visualization](https://medium.com/@omidsaghatchian/decision-tree-implementation-from-scratch-visualization-5eb0bbf427c2)
+My master’s research investigates the reliability of large language models in
+reasoning about semantic relationships between programs.
 
-In this article, I explain how to implement a decision tree from scratch and visualize its structure.
+The work develops a structured evaluation framework for determining whether
+LLMs can move beyond simple equivalence classification and provide reasoning
+that is consistent, structured, and verifiable.
+
+This research is conducted in collaboration with **Dr. Khashayar Etemadi**.
 
 ---
+
+## Engineering Experience
+
+### Argoman — Software Engineer
+
+I lead a software-engineering squad developing HR-related products. Our work
+translates business requirements into maintainable systems using
+Domain-Driven Design principles.
+
+I am also exploring how AI agents can improve product workflows, automate
+repetitive operations, and support more intuitive user experiences.
+
+### Yektanet — Software Engineer
+
+Previously worked on production software systems at Yektanet, an online
+advertising technology company.
+
+---
+
+## Education and Teaching
+
+- **M.Sc. in Data Mining**, Shahid Beheshti University
+- **B.Sc. in Mathematics and Applications**, Amirkabir University of Technology
+- Lead Teaching Assistant for **Data Mining**, **Computational Data Mining**,
+  **Deep Learning**, **Linear Algebra**, and **User Interface Design**
+
+---
+
+## Writing
+
+### Decision Tree Implementation from Scratch and Visualization
+
+An implementation-focused explanation of decision-tree construction and
+visualization.
+
+[Read on Medium](https://medium.com/@omidsaghatchian/decision-tree-implementation-from-scratch-visualization-5eb0bbf427c2)
+
+---
+
+## Contact
+
+I am interested in research and engineering collaborations related to:
+
+- Reliable LLM reasoning
+- Program analysis and code intelligence
+- Efficient machine-learning systems
+- AI-assisted software products
+
+[Email](mailto:YOUR_EMAIL) ·
+[LinkedIn](YOUR_LINKEDIN_LINK)
+
