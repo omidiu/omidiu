@@ -4,7 +4,7 @@ I’m a machine learning researcher with five years of experience in software en
 
 ## Selected research
 
-- **SCRBench** — I helped design and implement a benchmark that tests whether language models can identify which transformation changed a program’s behavior and reconstruct sequences of code transformations. [Preprint](https://arxiv.org/abs/2610.41562)
+- **SCRBench** — I built the data pipeline and implemented two tasks that ask language models to find the edit that changed a program’s behavior and reconstruct the sequence of edits. The paper is under review at NAACL. [Preprint](https://arxiv.org/abs/2610.41562)
 - **CA-ToMe** — I implemented a method in Stable Diffusion that speeds up image generation by reusing token matches across denoising steps. [Code](https://github.com/omidiu/ca_tome) · [Preprint](https://arxiv.org/abs/2501.00946)
 
 ## Tools and technologies
