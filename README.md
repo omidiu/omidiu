@@ -13,7 +13,7 @@ I enjoy solving complex problems by examining their assumptions and breaking the
 
 **Machine learning**
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="20" height="20" alt=""> Python · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/pytorch/pytorch-original.svg" width="20" height="20" alt=""> PyTorch
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="20" height="20" alt=""> Python · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/pytorch/pytorch-original.svg" width="20" height="20" alt=""> PyTorch · <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20" height="20" alt=""> Hugging Face
 
 **Web development**
 
