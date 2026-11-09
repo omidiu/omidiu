@@ -1,6 +1,6 @@
 # Omid Saghatchian
 
-I’m a machine learning researcher with five years of experience in software engineering. I’m interested in how large language models reason, how to evaluate their security, and how to make diffusion models more efficient.
+I enjoy solving complex problems by examining their assumptions and breaking them into simpler parts. In my research, I study how large language models reason and how to evaluate their security. I also work on making diffusion models more efficient.
 
 ## Selected research
 
