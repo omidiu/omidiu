@@ -1,6 +1,6 @@
 # Omid Saghatchian
 
-I enjoy solving complex problems by examining their assumptions and breaking them into simpler parts. In my research, I study how large language models reason and how to evaluate their security. I also work on making diffusion models more efficient.
+I enjoy solving complex problems by examining their assumptions and breaking them into simpler parts. In my research, I study how large language models reason and how to evaluate their security. Toward the end of my bachelor’s studies, I worked on making diffusion models more efficient.
 
 ## Selected research
 
