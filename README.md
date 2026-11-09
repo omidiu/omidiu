@@ -1,5 +1,7 @@
 # Omid Saghatchian
 
+**[Academic website](https://omidiu.github.io/)**
+
 I enjoy solving complex problems by examining their assumptions and breaking them into simpler parts. In my research, I study how large language models reason and how to evaluate their security. Toward the end of my bachelor’s studies, I worked on making diffusion models more efficient.
 
 ## Selected research
@@ -24,5 +26,3 @@ I enjoy solving complex problems by examining their assumptions and breaking the
 **Infrastructure and version control**
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" width="20" height="20" alt=""> Docker · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/kubernetes/kubernetes-original.svg" width="20" height="20" alt=""> Kubernetes · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" width="20" height="20" alt=""> Git
-
-[Academic website](https://omidiu.github.io/)
